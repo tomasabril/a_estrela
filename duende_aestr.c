@@ -6,7 +6,9 @@
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
+#include <stdbool.h>
 
+// desenha o labirinto mais bonito se nao está no windows
 #ifdef _WIN32
 #define CLEAR "cls"
 #define quadrado " # "
